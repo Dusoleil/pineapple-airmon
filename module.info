@@ -1,0 +1,6 @@
+{
+    "title": "airmon",
+    "description": "Manage Wireless Interfaces via airmon-ng",
+    "version": "1.0",
+    "author": "dusoleil"
+}
