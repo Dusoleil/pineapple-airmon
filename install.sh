@@ -1,3 +1,3 @@
 #!/bin/bash
 
-scp -r airmon root@pineapple.lan:/pineapple/modules/airmon
+scp -r airmon root@pineapple.lan:/pineapple/modules/
