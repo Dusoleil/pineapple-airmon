@@ -21,7 +21,7 @@ class airmon extends Module
     private function getInterfaces()
     {
         $interfaces = array();
-        exec("iwconfig 2>/dev/null | grep 'wlan' | awk '{print $1}'",$interfaces);
+        exec("iwconfig 2>/dev/null | awk '/wlan/ {print $1}'",$interfaces);
         $this->response = array("interfaces" => $interfaces);
     }
 
